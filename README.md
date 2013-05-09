@@ -33,6 +33,13 @@ See [clients/restclient.rb](clients/restclient.rb).
     $ gem install restclient
     $ ./clients/restclient.rb
 
+### Httparty ([website](http://johnnunemaker.com/httparty/))
+
+See [clients/httparty.rb](clients/httparty.rb).
+
+    $ gem install httparty
+    $ ./clients/httparty.rb
+
 ## License
 
 Copyright (c) 2013 Jens Bissinger. See [LICENSE.txt](LICENSE.txt)
