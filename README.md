@@ -26,6 +26,13 @@ See [clients/nethttp.rb](clients/nethttp.rb).
 
     $ ./clients/nethttp.rb
 
+### RestClient ([rdoc](http://rdoc.info/github/rest-client/rest-client))
+
+See [clients/restclient.rb](clients/restclient.rb).
+
+    $ gem install restclient
+    $ ./clients/restclient.rb
+
 ## License
 
 Copyright (c) 2013 Jens Bissinger. See [LICENSE.txt](LICENSE.txt)
