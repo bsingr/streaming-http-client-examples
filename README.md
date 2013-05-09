@@ -4,21 +4,17 @@ This repo contains several examples how to stream http responses via different r
 
 ## Usage
 
-The server.sh script starts a simple streaming http server listening on port 5000 based on the `nc` (netcat) command. It will simply echo the text 'hello' line by line.
+The server.sh script starts a simple streaming http server available via `GET http://localhost:5000` based on the `nc` (netcat) command. As response the server simply echos a some dots as separate chunks.
 
-Just run it like so:
+You can specify the number of chunks using the environment variable 'CHUNKS'.
 
-    $ ./server.sh
+Single server and client example with 3 chunks using `curl`:
 
-The following client scripts then will all just do simple http GET requests on `http://localhost:5000` and print to stdout what they receive.
+    $ (CHUNKS=3 ./server.sh > /dev/null &) && (curl http://localhost:5000)
+    .
+    .
+    .
 
-## Curl
-
-    $ curl http://localhost:5000
-    hello
-    hello
-    hello
-    ...
 
 ## Net::HTTP client ([ruby-doc](http://ruby-doc.org/stdlib-2.0/libdoc/net/http/rdoc/))
 
