@@ -14,17 +14,17 @@ The following client scripts then will all just do simple http GET requests on `
 
 ## Curl
 
-	$ curl http://localhost:5000
-	hello
-	hello
-	hello
-	...
-	
+    $ curl http://localhost:5000
+    hello
+    hello
+    hello
+    ...
+
 ## Net::HTTP client ([ruby-doc](http://ruby-doc.org/stdlib-2.0/libdoc/net/http/rdoc/))
 
 See [clients/nethttp.rb](clients/nethttp.rb).
 
-	$ ./clients/nethttp.rb
+    $ ./clients/nethttp.rb
 
 ## License
 
