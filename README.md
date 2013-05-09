@@ -22,6 +22,8 @@ The following client scripts then will all just do simple http GET requests on `
 	
 ## Net::HTTP client ([ruby-doc](http://ruby-doc.org/stdlib-2.0/libdoc/net/http/rdoc/))
 
+See [clients/nethttp.rb](clients/nethttp.rb).
+
 	$ ./clients/nethttp.rb
 
 ## License
