@@ -40,6 +40,14 @@ See [clients/httparty.rb](clients/httparty.rb).
     $ gem install httparty
     $ ./clients/httparty.rb
 
+
+### Streamly ([github-repo](https://github.com/brianmario/streamly))
+
+See [clients/streamly.rb](clients/streamly.rb).
+
+    $ gem install streamly
+    $ ./clients/streamly.rb
+
 ## License
 
 Copyright (c) 2013 Jens Bissinger. See [LICENSE.txt](LICENSE.txt)
